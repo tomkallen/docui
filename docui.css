@@ -37,8 +37,9 @@ body {
 
 .doc-row {
     width: 100%;
+    box-sizing: border-box;
     max-width: 1280px;
-    min-width: 748px;
+    min-width: 768px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -47,6 +48,7 @@ body {
     content: "";
     display: table;
     clear: both;
+    box-sizing: border-box;
 }
 
 [class*="col-"] {
@@ -152,4 +154,63 @@ body {
 
 .shift-12 {
     margin-left: 100%;
+}
+
+
+/*Mobile layout*/
+
+@media handheld,
+only screen and (max-width: 767px) {
+    .doc-row {
+        margin: 0;
+        min-width: 0;
+        width: 100%;
+    }
+    [class*="col-"] {
+        width: auto;
+        float: none;
+    }
+    [class*="m-col-"] {
+        float: left;
+        box-sizing: border-box;
+        margin: 0;
+        padding: .75em 1.5em;
+        text-align: justify;
+    }
+    .m-col-1 {
+        width: 8.33%;
+    }
+    .m-col-2 {
+        width: 16.667%;
+    }
+    .m-col-3 {
+        width: 25%;
+    }
+    .m-col-4 {
+        width: 33.333%;
+    }
+    .m-col-5 {
+        width: 41.667;
+    }
+    .m-col-6 {
+        width: 50%;
+    }
+    .m-col-7 {
+        width: 58.333%;
+    }
+    .m-col-8 {
+        width: 66.667%;
+    }
+    .m-col-9 {
+        width: 75%;
+    }
+    .m-col-10 {
+        width: 83.333%;
+    }
+    .m-col-11 {
+        width: 91.667%;
+    }
+    .m-col-12 {
+        width: 100%;
+    }
 }
