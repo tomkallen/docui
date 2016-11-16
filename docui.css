@@ -5,43 +5,20 @@ body {
     width: 100%;
 }
 
-.doc-note {
-    background-color: #318CE7;
-    color: #fff;
-    padding: 1em 1em 1em 4em;
-    font-size: 0.8em;
-    text-align: justify;
-    line-height: 1.5;
-}
 
-.doc-note-important {
-    background-color: #CC0000;
-    color: #fff;
-    padding: 1em 1em 1em 4em;
-    font-size: 1em;
-    text-align: justify;
-    line-height: 1.5;
-}
+/*Basic wrappers set-up*/
 
-.doc-frame {
-    border: 3px dotted #222;
-    border-radius: 1em;
-    padding: 1.5em;
-    font-style: italic;
-}
-
-.doc-basic {
-    padding: 1em 1.5em;
-    line-height: 1.25;
-}
-
+.doc-row-flex,
 .doc-row {
     width: 100%;
     box-sizing: border-box;
-    max-width: 1280px;
     min-width: 768px;
     margin: 0 auto;
     overflow: hidden;
+}
+
+.doc-row {
+    max-width: 1280px;
 }
 
 .doc-row:after {
@@ -106,6 +83,39 @@ body {
 }
 
 
+/*DocmentUI Components*/
+
+.doc-note {
+    background-color: #318CE7;
+    color: #fff;
+    padding: 1em 1em 1em 4em;
+    font-size: 0.8em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.doc-note-important {
+    background-color: #CC0000;
+    color: #fff;
+    padding: 1em 1em 1em 4em;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.doc-frame {
+    border: 3px dotted #222;
+    border-radius: 1em;
+    padding: 1.5em;
+    font-style: italic;
+}
+
+.doc-basic {
+    padding: 1em 1.5em;
+    line-height: 1.25;
+}
+
+
 /*Column shifts*/
 
 .shift-1 {
@@ -161,7 +171,8 @@ body {
 
 @media handheld,
 only screen and (max-width: 767px) {
-    .doc-row {
+    .doc-row,
+    doc-row-flex {
         margin: 0;
         min-width: 0;
         width: 100%;
