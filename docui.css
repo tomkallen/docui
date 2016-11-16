@@ -15,6 +15,7 @@ body {
     min-width: 768px;
     margin: 0 auto;
     overflow: hidden;
+    font-size: 1rem;
 }
 
 .doc-row {
@@ -156,7 +157,6 @@ body {
 
 .doc-frame {
     border: 3px dotted #222;
-    border-radius: 1em;
     padding: 1em;
     font-style: italic;
 }
