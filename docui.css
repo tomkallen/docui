@@ -1,0 +1,92 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.doc-note {
+    background-color: #318CE7;
+    color: #fff;
+    padding: 1em 1em 1em 4em;
+    font-size: 0.8em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.doc-note-important {
+    background-color: #CC0000;
+    color: #fff;
+    padding: 1em 1em 1em 4em;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.doc-row {
+    width: 100%;
+    max-width: 1600px;
+    min-width: 748px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.doc-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col-"] {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+}
+
+.col-1 {
+    width: 8.333%;
+}
+
+.col-2 {
+    width: 16.667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333%;
+}
+
+.col-5 {
+    width: 41.667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333%;
+}
+
+.col-8 {
+    width: 66.667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.333%;
+}
+
+.col-11 {
+    width: 91.667%;
+}
+
+.col-12 {
+    width: 100%;
+}
