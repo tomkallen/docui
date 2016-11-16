@@ -115,14 +115,25 @@ body {
     line-height: 1.25;
 }
 
-.doc-page-title {
+.doc-page {
     text-align: right;
-    font-size: 1.25rem;
-    border-bottom: 6px solid black;
+    font-size: 1.2rem;
+    border-bottom: 5px solid #555;
     padding: .75em 1em .25em 0;
 }
 
-.doc-page-title::first-letter {
+.doc-page-inverse {
+    text-align: right;
+    font-size: 1.2rem;
+    background-color: #111;
+    color: #fff;
+    border-bottom: 5px solid #ddd;
+    padding: .75em 1em .25em 0;
+}
+
+.doc-page::first-letter,
+.doc-page-inverse::first-letter 
+ {
     font-style: italic;
 }
 
@@ -201,7 +212,7 @@ only screen and (max-width: 767px) {
     }
     .doc-page-title {
         font-size: 1.1rem;
-        border-bottom: 3px solid black;
+        border-bottom: 3px solid #555;
     }
     .m-col-1 {
         width: 8.33%;
@@ -216,7 +227,7 @@ only screen and (max-width: 767px) {
         width: 33.333%;
     }
     .m-col-5 {
-        width: 41.667;
+        width: 41.667%;
     }
     .m-col-6 {
         width: 50%;
