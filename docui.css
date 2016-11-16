@@ -23,9 +23,21 @@ body {
     line-height: 1.5;
 }
 
+.doc-frame {
+    border: 3px dotted #222;
+    border-radius: 1em;
+    padding: 1.5em;
+    font-style: italic;
+}
+
+.doc-basic {
+    padding: 1em 1.5em;
+    line-height: 1.25;
+}
+
 .doc-row {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1280px;
     min-width: 748px;
     margin: 0 auto;
     overflow: hidden;
@@ -89,4 +101,55 @@ body {
 
 .col-12 {
     width: 100%;
+}
+
+
+/*Column shifts*/
+
+.shift-1 {
+    margin-left: 8.333%;
+}
+
+.shift-2 {
+    margin-left: 16.667%;
+}
+
+.shift-3 {
+    margin-left: 25%;
+}
+
+.shift-4 {
+    margin-left: 33.333%;
+}
+
+.shift-5 {
+    margin-left: 41.667%;
+}
+
+.shift-6 {
+    margin-left: 50%;
+}
+
+.shift-7 {
+    margin-left: 58.333%;
+}
+
+.shift-8 {
+    margin-left: 66.667%;
+}
+
+.shift-9 {
+    margin-left: 75%;
+}
+
+.shift-10 {
+    margin-left: 83.333%;
+}
+
+.shift-11 {
+    margin-left: 91.667%;
+}
+
+.shift-12 {
+    margin-left: 100%;
 }
