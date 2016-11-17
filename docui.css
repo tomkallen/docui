@@ -147,7 +147,7 @@ body {
 }
 
 .doc-note-important {
-    background-color: #CC0000;
+    background-color: #C02;
     color: #fff;
     padding: 1em;
     font-size: 1em;
@@ -187,6 +187,15 @@ body {
     font-style: italic;
 }
 
+.doc-header {
+    display: block;
+    text-align: center;
+    font-size: 2.25rem;
+    padding: .75em;
+    line-height: 1.1em;
+    font-weight: bolder;
+}
+
 
 /*Mobile layout*/
 
@@ -210,12 +219,15 @@ only screen and (max-width: 767px) {
         text-align: justify;
     }
     .doc-page {
-        font-size: 1.1rem;
+        font-size: .9rem;
         border-bottom: 3px solid #111;
     }
     .doc-page-inverse {
         font-size: 1.1rem;
         border-bottom: 3px solid #eee;
+    }
+    .doc-header {
+        padding: .25em .5em;
     }
     .m-col-1 {
         width: 8.33%;
