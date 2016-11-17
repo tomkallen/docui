@@ -194,10 +194,17 @@ body {
 .doc-header {
     display: block;
     text-align: center;
-    font-size: 2.25rem;
+    font-size: 2.35rem;
     padding: .75em;
     line-height: 1.1em;
     font-weight: bolder;
+}
+
+.doc-address {
+    padding: 1.5em 1em 1.5em 2em;
+    font-style: italic;
+    font-weight: lighter;
+    list-style-type: none;
 }
 
 
