@@ -170,34 +170,40 @@ body {
     line-height: 1.25;
 }
 
-.doc-page {
+.doc-pagetitle {
     text-align: right;
     font-size: 1.2rem;
-    border-bottom: 5px solid #111;
+    border-bottom: 5px solid #222;
     padding: .75em 1em .25em 0;
 }
 
-.doc-page-inverse {
+.doc-pagetitle-inverse {
     text-align: right;
     font-size: 1.2rem;
-    background-color: #111;
+    background-color: #222;
     color: #eee;
     border-bottom: 5px solid #eee;
     padding: .75em 1em .25em 0;
 }
 
-.doc-page::first-letter,
-.doc-page-inverse::first-letter {
+.doc-pagetitle::first-letter,
+.doc-pagetitle-inverse::first-letter {
     font-style: italic;
 }
 
-.doc-header {
+.doc-header,
+.doc-header-inverse {
     display: block;
     text-align: center;
     font-size: 2.35rem;
     padding: .75em;
     line-height: 1.1em;
     font-weight: bolder;
+}
+
+.doc-header-inverse {
+    background-color: #222;
+    color: #fff;
 }
 
 .doc-address {
@@ -229,15 +235,16 @@ only screen and (max-width: 767px) {
         padding: .75em 1.5em;
         text-align: justify;
     }
-    .doc-page {
+    .doc-pagetitle {
         font-size: .9rem;
-        border-bottom: 3px solid #111;
+        border-bottom: 3px solid #222;
     }
-    .doc-page-inverse {
+    .doc-pagetitle-inverse {
         font-size: 1.1rem;
         border-bottom: 3px solid #eee;
     }
-    .doc-header {
+    .doc-header,
+    .doc-header-inverse {
         padding: .25em .5em;
     }
     .m-col-1 {
