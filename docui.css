@@ -199,6 +199,8 @@ body {
     padding: .75em;
     line-height: 1.1em;
     font-weight: bolder;
+    margin-top: .75em;
+    margin-bottom: .75em;
 }
 
 .doc-header-inverse {
@@ -218,6 +220,9 @@ body {
 
 @media handheld,
 only screen and (max-width: 767px) {
+    .no-mobile {
+        display: none;
+    }
     .doc-row,
     .doc-row-flex {
         margin: 0;
@@ -240,12 +245,13 @@ only screen and (max-width: 767px) {
         border-bottom: 3px solid #222;
     }
     .doc-pagetitle-inverse {
-        font-size: 1.1rem;
+        font-size: .9rem;
         border-bottom: 3px solid #eee;
     }
     .doc-header,
     .doc-header-inverse {
-        padding: .25em .5em;
+        padding: .5em .5em;
+        text-align: center;
     }
     .m-col-1 {
         width: 8.33%;
