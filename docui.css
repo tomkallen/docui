@@ -3,6 +3,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
+    font-size: 18px;
 }
 
 
@@ -29,7 +30,7 @@ body {
     box-sizing: border-box;
 }
 
-[class*="col-"] {
+[class^="d-col-"] {
     box-sizing: border-box;
     float: left;
     min-height: 1px;
@@ -39,51 +40,51 @@ body {
     clear: left;
 }
 
-.col-1 {
+.d-col-1 {
     width: 8.333%;
 }
 
-.col-2 {
+.d-col-2 {
     width: 16.667%;
 }
 
-.col-3 {
+.d-col-3 {
     width: 25%;
 }
 
-.col-4 {
+.d-col-4 {
     width: 33.333%;
 }
 
-.col-5 {
+.d-col-5 {
     width: 41.667%;
 }
 
-.col-6 {
+.d-col-6 {
     width: 50%;
 }
 
-.col-7 {
+.d-col-7 {
     width: 58.333%;
 }
 
-.col-8 {
+.d-col-8 {
     width: 66.667%;
 }
 
-.col-9 {
+.d-col-9 {
     width: 75%;
 }
 
-.col-10 {
+.d-col-10 {
     width: 83.333%;
 }
 
-.col-11 {
+.d-col-11 {
     width: 91.667%;
 }
 
-.col-12 {
+.d-col-12 {
     width: 100%;
 }
 
@@ -229,11 +230,11 @@ only screen and (max-width: 767px) {
         min-width: 0;
         width: 100%;
     }
-    [class*="col-"] {
+    [class^="d-col-"] {
         width: auto;
         float: none;
     }
-    [class*="m-col-"] {
+    [class^="m-col-"] {
         float: left;
         box-sizing: border-box;
         margin: 0;
