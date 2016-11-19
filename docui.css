@@ -30,7 +30,7 @@ body {
     box-sizing: border-box;
 }
 
-[class^="d-col-"] {
+.doc-row [class*="d-col-"] {
     box-sizing: border-box;
     float: left;
     min-height: 1px;
@@ -200,8 +200,8 @@ body {
     padding: .75em;
     line-height: 1.1em;
     font-weight: bolder;
-    margin-top: .75em;
-    margin-bottom: .75em;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 .doc-header-inverse {
@@ -230,11 +230,11 @@ only screen and (max-width: 767px) {
         min-width: 0;
         width: 100%;
     }
-    [class^="d-col-"] {
+    .doc-row [class*="d-col-"] {
         width: auto;
         float: none;
     }
-    [class^="m-col-"] {
+    [class*="m-col-"] {
         float: left;
         box-sizing: border-box;
         margin: 0;
