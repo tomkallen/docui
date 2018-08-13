@@ -62,7 +62,7 @@
 
 .header-medium {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-left: 1rem;
     color: #222;
 }
@@ -74,6 +74,13 @@
     font-style: italic;
     font-weight: bolder;
     color: #444;
+}
+
+.paragraph-title {
+    display: block;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    margin-top: 1rem;
 }
 
 .note {
