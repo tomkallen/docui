@@ -140,3 +140,9 @@ html, body {
     font-weight: bold;
     margin-left: 1rem;
 }
+
+.line {
+    width: 100%;
+    margin: .5rem;
+    border-bottom: 3px solid #aaa;
+}
