@@ -108,6 +108,14 @@ html, body {
     background-color: #2279b7;
 }
 
+.button a {
+    color: #fff;
+}
+
+.button a:hover {
+    color: #ccc;
+}
+
 .textinput {
     outline: none;
     border: none;
